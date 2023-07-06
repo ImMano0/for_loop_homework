@@ -6,4 +6,10 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    x = 0
+    for i in range(N):
+        if (i+1)%2==0:
+            x+=i 
+    return x 
+
+print(main(21))
